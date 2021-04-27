@@ -1,0 +1,60 @@
+div.logo a:focus {
+	background:none;
+}
+div.article_text { 
+	font-family: Arial Unicode MS, Tahoma, Arial;
+}
+.article_title {
+	font-family:Arial Unicode MS, Tahoma, Arial;
+	text-transform: uppercase; 
+}
+.article_text div.author {
+        text-align: right;
+}
+.article_text h3 {
+        margin-bottom:5px;
+}
+.article_text h4 {
+        margin-bottom:5px;
+}
+.article_text img.t {vertical-align:baseline}
+.sl1 { font-weight: bold; margin-top: 10px;}
+.sl2 { margin-left: 20px; }
+.sl3 { margin-left: 40px; }
+.sl4 { margin-left: 60px; }
+.sl5 { margin-left: 80px; }
+.sl6 { margin-left: 100px; }
+.sl_active, .sl_active a { color:#000; font-weight:bold; text-decoration:none; }
+
+a.an { color: #555555 }
+div.left_image {
+	width:auto;
+	float:left;
+	clear:left;
+	position:relative;
+	padding:0px;
+	margin:10px 20px 10px 0px;
+}
+
+div.right_image {
+	float:right;
+	clear:right;
+	position:relative;
+	padding:0px;
+	margin:10px 0 10px 10px;
+}
+
+
+a.pot, a.pot:hover, a.pot:visited, a.pot:visited:hover {color:#33c8e9;cursor:default;}
+
+.see_also_kw .header {font-weight:bold; margin-top:8px; }
+div.article_in_list { margin-top:5px; }
+table.noborder { border: none; } 
+table.noborder td { border: none; } 
+div.icon_legend { float:right; font-size: 0.75em; }
+
+#vols-pagination {margin-top: 5px}
+#vols-pagination span {padding:1px 3px 2px 3px;background-color:#d7d7d7;border:1px solid #d7d7d7;border-radius:3px;}
+#vols-pagination-vert {float: right; padding-left: 40px; width: 8em; color: #000000;}
+#vols-pagination-vert div {font-size:1.5em;margin-bottom:5px;}
+

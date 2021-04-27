@@ -1,0 +1,377 @@
+*
+	{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:Tahoma,Verdana,Arial,sans-serif;
+	color:#000;
+	background:#fff;
+	font-weight:normal;
+	text-align:left;
+	}
+
+body
+	{
+	font-size:0.8em;
+	}
+
+small
+	{
+	font-size:0.7em;
+	}
+
+p
+	{
+	margin:0.6em 0 0.8em 0;
+	}
+
+/* заголовки окна */
+.ModuleWindowHeader, .TOCWindowHeader
+	{
+	font-size:0.7em;
+	font-weight:bold;
+	border-bottom:0.1em solid #000;
+	background:#000;
+	color:#fff;
+	clear:both;
+	display:block;
+	}
+
+/* заголовки статей */
+h2
+	{
+	font-size:1.6em;
+	font-weight:bold;
+	margin-bottom:0.7em;
+	}
+
+h3
+	{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:0.7em;
+	}
+
+h4
+	{
+	font-size:1.2em;
+	font-weight:bold;
+	margin-bottom:0.7em;
+	}
+
+h5
+	{
+	font-size:1em;
+	font-weight:bold;
+	font-style:italic;
+	margin-bottom:0.7em;
+	}
+
+/* ссылки обыкновенный */
+a
+	{
+	color:#000;
+	text-decoration:underline;
+	}
+
+/* списки */
+ul
+	{
+	position:relative;
+	float:none;
+	display:block;
+	border:0px dotted red;
+	margin:0em 0 1em 0;
+	}
+
+ul li
+	{
+	position:relative;
+	list-style-type:none;
+	display:block;
+	}
+
+ul ul
+	{
+	position:relative;
+	margin:1em 0 0 1em;
+	}
+
+
+
+/* горизонтальная полоска */
+hr {
+	border:0;
+	width:100%;
+	clear:both;
+	color:#000;
+	float:none;
+	height:0px;
+	margin:0;
+	padding:0; }
+
+div .hr {
+	position:static;
+	background:#000;
+	border:0px solid;
+	width:100%;
+	height:2px;
+	clear:both;
+	margin:1em 0 1.4em 0; }
+
+/* search box */
+/* главная коробка, здесь задаются главные отступы */
+.logo, .search, .main_menu, .see_also_kw
+	{
+	display:none;
+	}
+
+.intro {
+	display:none;
+	}
+
+.print_intro {
+	width:100%;
+	font-size:0.55em;
+	font-weight:bold;
+	border-bottom:0.1em solid #000;
+	}
+
+/* левая колонка */
+.left, .right {
+	position:relative;
+	width:100%;
+	margin:0; padding:0;
+	border:0px dotted black;
+	}
+
+.center {
+	display:none;
+	}
+
+.box, .box .box, .box .box .box, .box .box .box .box, .box .box .box .box .box, .box .box .box .box .box .box, .box .box .box .box .box .box .box, .box .box .box .box .box .box .box .box, .box .box .box .box .box .box .box .box .box, .box .box .box .box .box .box .box .box .box .box
+	{
+	margin:0;
+	padding:0;
+	}
+
+/* содержание */
+.toc
+	{
+	position:relative;
+	float:left;
+	clear:left;
+	width:40%;
+	padding:0.3em;
+	margin:0.5em 1em 1em 0;
+	border:0.05em solid #000;
+	}
+
+.toc .toc_header
+	{
+	position:relative;
+	float:none;
+	}
+
+.toc .toc_content
+	{
+	position:relative;
+	float:none;
+	}
+
+.toc .toc_content ul
+	{
+	position:relative;
+	float:none;
+	display:block;
+	border:0px dotted red;
+	}
+
+.toc .toc_content ul li
+	{
+	position:relative;
+	list-style-type:none;
+	display:block;
+	}
+
+.toc .toc_content ul ul
+	{
+	position:relative;
+	margin:1em 0 0 1em;
+	}
+
+
+/* картинка */
+.image {
+	width:auto;
+	overflow:visible;
+	float:right;
+	position:relative;
+	clear:right;
+	page-break-inside:avoid;
+	page-break-after:auto;
+	page-break-before:auto;
+	}
+
+.image p
+	{
+	font-size:0.6em;
+	page-break-inside:avoid;
+	}
+
+.image img {
+	display:block;
+	float:none;
+	position:relative;
+	padding:0px;
+	border:#bfbfbf solid 1px;
+	page-break-inside:avoid;
+	}
+
+.image .image, .image .image .image, .image .image .image .image, .image .image .image .image .image, .image .image .image .image .image .image, .image .image .image .image .image .image .image, .image .image .image .image .image .image .image .image
+	{
+	float:none;
+	padding:0;
+	margin:0;
+	border:0;
+	page-break-inside:avoid;
+	}
+
+.image .image .image .image .image .image .image .image .image
+	{
+	page-break-inside:avoid;
+	}
+
+.border .border, .border .border .border, .border .border .border .border, .border .border .border .border .border, .border .border .border .border .border .border, .border .border .border .border .border .border .border, .border .border .border .border .border .border .border .border
+	{
+	float:none;
+	padding:0;
+	margin:0;
+	border:0;
+	page-break-inside:avoid;
+	}
+.border .border .border .border .border .border .border .border .border
+	{
+	page-break-inside:avoid;
+	}
+
+/* инверсия пространства чтобы выделить библиографию, блок внутристатейной навигации */
+.bibliography_space {
+	border:#000 solid;
+	border-top-width:0.1em;
+	border-bottom-width:0.1em;
+	border-left-width:0px;
+	border-right-width:0px;
+	margin-bottom:10px;
+	padding:1em;
+	clear:both;
+	}
+
+.article_dashboard_space {
+	font-size:0.55em;
+	float:left;
+	display:block;
+	position:absolute;
+	clear:both;
+	background:transparent;
+	border:#000 solid;
+	border-top-width:0px;
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-right:0px;
+	padding-top:10px;
+	padding-bottom:8px;
+	padding-left:0px;
+	padding-right:0px;
+	width:auto; }
+
+/* кнопка для внутристатейной навигации */
+.button
+	{
+	display:none;
+	}
+
+.info {
+	display:inline;
+	float:right;
+	background:#fff;
+	border:#fff 0px solid;
+	margin:0 10px 0 0;
+	padding:0px;
+	width:auto; }
+
+.button img, .bibliography_space li, .intro img, p img {
+	vertical-align:middle;
+	}
+
+/* подножка */
+.footer {
+	border:0px dotted black;
+	background:transparent;
+	color:#000;
+	font-size:0.7em; }
+
+/* ссылки в подножке */
+.footer a, .footer a:visited {
+	color:#000;
+	font-weight:bold;
+	text-decoration:underline; }
+
+.footlinks
+	{
+	display:none;
+	}
+
+/* таблицы */
+table
+	{
+	margin:0 1em 1em 0;
+	border-top:0.05em solid #000;
+	border-left:0.05em solid #000; }
+
+th,td
+	{
+	height: 1em;
+	padding:0.2em 0.4em;
+	border-bottom:0.05em solid #000;
+	border-right:0.05em solid #000; }
+
+th
+	{
+	background:#fff; }
+
+th
+	{
+	font-weight:bold; }
+
+.onepixdot, .onepixdot td, .onepixdot tr
+	{
+	display:none;
+	}
+.highslide-caption
+        {
+        display:none;
+        }
+.logo, .search, .search_form, .main_menu, a.pot, .intro
+        {
+        display:none;
+        visibility:hidden;
+        }
+div.left_image 
+        {
+	width:auto;
+	float:left;
+	clear:left;
+	position:relative;
+	padding:0px;
+        }
+div.right_image
+        {
+	float:right;
+	clear:right;
+	position:relative;
+	padding:0px;
+        }
